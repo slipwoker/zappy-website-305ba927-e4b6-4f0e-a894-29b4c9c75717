@@ -4,7 +4,73 @@
     <title>Milan</title>
     <link>https://example.com</link>
     <description>Product feed for Milan</description>
-    <lastBuildDate>Thu, 23 Jul 2026 19:05:47 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 19:28:04 GMT</lastBuildDate>
+    <item>
+      <g:id>fe60aebb-8282-415a-8788-92a86eed8caa</g:id>
+      <g:title>שרשרת לגבר </g:title>
+      <g:description>שרשרת לגבר 2 במחיר של אחד אל חלד מתאים למקלחת באיכות גבוהה</g:description>
+      <g:link>https://example.com/product/shrshrt-lgbr-86qrr7</g:link>
+      <g:image_link>https://example.com/assets/product-1784834275978-i3vcj.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>120.00 ILS</g:price>
+      <g:sale_price>50.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Milan</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>17a775a2-29ca-4761-b5a6-86cdb4a1705a</g:id>
+      <g:title>שרשרת לגבר </g:title>
+      <g:description>שרשרת לגבר 2 במחיר של אחד</g:description>
+      <g:link>https://example.com/product/shrshrt-lgbr-8dx5bt</g:link>
+      <g:image_link>https://example.com/assets/product-1784834194904-lfl5j7.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>120.00 ILS</g:price>
+      <g:sale_price>50.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Milan</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>41029e8e-037e-4868-8da2-6aa759409994</g:id>
+      <g:title>שרשרת אותיות מעוצבות לאישה </g:title>
+      <g:description>שרשרת עם אות באנגלית אל חלד מתאים למקלחת באיכות גבוהה</g:description>
+      <g:link>https://example.com/product/shrshrt-avtyvt-mavtsbvt-layshh-bbarm7</g:link>
+      <g:image_link>https://example.com/assets/product-1784834064062-l6jfj.webp</g:image_link>
+      <g:additional_image_link>https://example.com/assets/product-1784834070865-uppbke.webp</g:additional_image_link>
+      <g:additional_image_link>https://example.com/assets/product-1784834077631-law76.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Milan</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>95cee04a-0b08-4809-9560-0a5bcd2ab0e9</g:id>
+      <g:title>צמיד אינפיניטי לאישה</g:title>
+      <g:description>צמיד אינפיניטי עמיד למים אל חלד איכותי</g:description>
+      <g:link>https://example.com/product/tsmyd-aynpynyty-layshh-0m2cno</g:link>
+      <g:image_link>https://example.com/assets/product-1784833830593-jboqe.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>120.00 ILS</g:price>
+      <g:sale_price>50.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Milan</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>1fe2ccec-7d48-4a39-943c-d1ffddc32db5</g:id>
+      <g:title>שרשרת לאישה</g:title>
+      <g:description>שרשרת לאישה אל חלד באיכות גבוהה</g:description>
+      <g:link>https://example.com/product/shrshrt-layshh-dyjj85</g:link>
+      <g:image_link>https://example.com/assets/product-1784833722169-dhq78j.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>135.00 ILS</g:price>
+      <g:sale_price>50.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Milan</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
     <item>
       <g:id>a267c9b6-0939-44bb-b2d3-0e4456894f97</g:id>
       <g:title>שרשרת לגבר</g:title>

@@ -76,7 +76,42 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 2**
+**Total active products: 7**
+
+### שרשרת לגבר 
+https://example.com/product/shrshrt-lgbr-86qrr7
+- Price: 50.00 ILS (sale, was 120.00 ILS)
+- Availability: In stock
+- Description: שרשרת לגבר 2 במחיר של אחד אל חלד מתאים למקלחת באיכות גבוהה
+- Image: https://example.com/assets/product-1784834275978-i3vcj.webp
+
+### שרשרת לגבר 
+https://example.com/product/shrshrt-lgbr-8dx5bt
+- Price: 50.00 ILS (sale, was 120.00 ILS)
+- Availability: In stock
+- Description: שרשרת לגבר 2 במחיר של אחד
+- Image: https://example.com/assets/product-1784834194904-lfl5j7.webp
+
+### שרשרת אותיות מעוצבות לאישה 
+https://example.com/product/shrshrt-avtyvt-mavtsbvt-layshh-bbarm7
+- Price: 0.00 ILS
+- Availability: In stock
+- Description: שרשרת עם אות באנגלית אל חלד מתאים למקלחת באיכות גבוהה
+- Image: https://example.com/assets/product-1784834064062-l6jfj.webp
+
+### צמיד אינפיניטי לאישה
+https://example.com/product/tsmyd-aynpynyty-layshh-0m2cno
+- Price: 50.00 ILS (sale, was 120.00 ILS)
+- Availability: In stock
+- Description: צמיד אינפיניטי עמיד למים אל חלד איכותי
+- Image: https://example.com/assets/product-1784833830593-jboqe.webp
+
+### שרשרת לאישה
+https://example.com/product/shrshrt-layshh-dyjj85
+- Price: 50.00 ILS (sale, was 135.00 ILS)
+- Availability: In stock
+- Description: שרשרת לאישה אל חלד באיכות גבוהה
+- Image: https://example.com/assets/product-1784833722169-dhq78j.webp
 
 ### שרשרת לגבר
 https://example.com/product/shrshrt-lgbr-kmf4cd
