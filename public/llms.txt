@@ -1,0 +1,105 @@
+# Milan — Generative Engine Optimization Map
+
+> An online jewelry store catering to both men and women, offering a diverse range of jewelry products. The brand aims to serve a broad audience with varied tastes, from classic to contemporary styles.
+
+---
+
+## Pages
+
+### בית
+https://milan-305ba927.zappy5.app
+חנות תכשיטים אונליין לגברים ונשים עם מבחר קלאסי ועכשווי. מצאו את התכשיט המושלם שמשדר יוקרה וסטייל. היכנסו עכשיו והתחילו לזרוח!
+
+### מדריך מתנות
+https://milan-305ba927.zappy5.app/gift-guide
+מתלבטים איזה תכשיט להעניק? מדריך המתנות שלנו יעזור לכם לבחור מתנה ייחודית שתגנוב את ההצגה. כנסו עכשיו ותנו השראה שתנצנץ!
+
+### אודות מילאנו
+https://milan-305ba927.zappy5.app/about
+המותג מילאנו נולד מאהבה לעיצוב תכשיטים שמחברים בין מסורת לחדשנות. גלו מי אנחנו, מה מניע אותנו, ולמה כל פריט הוא יצירת אמנות בפני עצמה.
+
+### צור קשר
+https://milan-305ba927.zappy5.app/contact
+יש שאלה על תכשיט, משלוח או התאמה אישית? צוות המומחים של מילאנו כאן בשבילכם. מלאו את הטופס וקבלו מענה מהיר שיגרום לכם לחייך.
+
+### Products
+https://milan-305ba927.zappy5.app/products
+המוצרים שלנו - Milan
+
+### Cart
+https://milan-305ba927.zappy5.app/cart
+עגלת הקניות שלך
+
+### Checkout
+https://milan-305ba927.zappy5.app/checkout
+תשלום
+
+### Login
+https://milan-305ba927.zappy5.app/login
+התחברות לקוחות
+
+### Account
+https://milan-305ba927.zappy5.app/account
+החשבון שלי
+
+### Order Success
+https://milan-305ba927.zappy5.app/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://milan-305ba927.zappy5.app/product/:slug
+פרטי המוצר - Milan
+
+### Category
+https://milan-305ba927.zappy5.app/category/:slug
+מוצרים - Milan
+
+### תודה - Milan
+https://milan-305ba927.zappy5.app/thank-you
+Milan - תודה - Milan
+
+## Legal & Policy
+
+### Privacy Policy
+https://milan-305ba927.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://milan-305ba927.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://milan-305ba927.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Milan
+An online jewelry store catering to both men and women, offering a diverse range of jewelry products. The brand aims to serve a broad audience with varied tastes, from classic to contemporary styles.
+
+## Target Audience
+- גברים ונשים
+- שוחרי אופנה
+- רוכשי מתנות
+- מקצוענים צעירים
+
+## Industry
+Jewelry E-commerce
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://milan-305ba927.zappy5.app/sitemap.xml
+- Robots: https://milan-305ba927.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://milan-305ba927.zappy5.app/llms-full.txt
+- Products (JSON): https://milan-305ba927.zappy5.app/products.json
+- Products (Google Merchant RSS): https://milan-305ba927.zappy5.app/product-feed.xml
