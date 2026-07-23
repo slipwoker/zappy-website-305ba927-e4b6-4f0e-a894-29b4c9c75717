@@ -4,6 +4,32 @@
     <title>Milan</title>
     <link>https://example.com</link>
     <description>Product feed for Milan</description>
-    <lastBuildDate>Thu, 23 Jul 2026 18:50:27 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 19:05:47 GMT</lastBuildDate>
+    <item>
+      <g:id>a267c9b6-0939-44bb-b2d3-0e4456894f97</g:id>
+      <g:title>שרשרת לגבר</g:title>
+      <g:description>שרשרת לגבר אל חלד איכותית</g:description>
+      <g:link>https://example.com/product/shrshrt-lgbr-kmf4cd</g:link>
+      <g:image_link>https://example.com/assets/product-1784833413364-nq2i7p.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>85.00 ILS</g:price>
+      <g:sale_price>50.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Milan</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>f7eeb57c-3424-4acf-9d88-cfb0cd24647c</g:id>
+      <g:title>צמידים לגבר</g:title>
+      <g:description>צמידים איכותיים לגבר במחיר זול בלי להתפשר על איכות</g:description>
+      <g:link>https://example.com/product/tsmydym-lgbr-7oya1h</g:link>
+      <g:image_link>https://example.com/assets/product-1784833025985-rolvxb.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>120.00 ILS</g:price>
+      <g:sale_price>50.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Milan</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
   </channel>
 </rss>

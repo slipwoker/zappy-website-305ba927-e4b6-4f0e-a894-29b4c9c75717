@@ -1,8 +1,53 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-23T18:50:27.023Z",
+  "generated_at": "2026-07-23T19:05:47.982Z",
   "base_url": "https://example.com",
   "currency": "ILS",
-  "count": 0,
-  "products": []
+  "count": 2,
+  "products": [
+    {
+      "id": "a267c9b6-0939-44bb-b2d3-0e4456894f97",
+      "slug": "shrshrt-lgbr-kmf4cd",
+      "name": "שרשרת לגבר",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שרשרת לגבר אל חלד איכותית ",
+      "sku": null,
+      "brand": null,
+      "price": 50,
+      "base_price": 85,
+      "sale_price": 50,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1784833413364-nq2i7p.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shrshrt-lgbr-kmf4cd",
+      "categories": [],
+      "updated_at": "2026-07-23T19:03:50.623Z"
+    },
+    {
+      "id": "f7eeb57c-3424-4acf-9d88-cfb0cd24647c",
+      "slug": "tsmydym-lgbr-7oya1h",
+      "name": "צמידים לגבר",
+      "name_translations": {},
+      "description": "",
+      "short_description": "צמידים איכותיים לגבר במחיר זול בלי להתפשר על איכות ",
+      "sku": null,
+      "brand": null,
+      "price": 50,
+      "base_price": 120,
+      "sale_price": 50,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1784833025985-rolvxb.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/tsmydym-lgbr-7oya1h",
+      "categories": [],
+      "updated_at": "2026-07-23T18:58:55.949Z"
+    }
+  ]
 }

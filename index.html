@@ -780,18 +780,18 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "305ba927-e4b6-4f0e-a894-29b4c9c75717";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "305ba927-e4b6-4f0e-a894-29b4c9c75717";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0522166429" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
     </svg>
@@ -1268,7 +1268,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0522166429';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -1371,13 +1371,13 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <!-- Card 1: For Her -->
     <article class="index-features-section__card index-features-section__card--her" data-grid-item-index="0">
       <div class="index-features-section__card-media">
-        <img loading="lazy" decoding="async" data-placeholder="index-features-image-1" data-context="Close-up macro shot of a delicate gold ring with a sparkling diamond, resting on dark velvet with soft cyan edge lighting, cinematic jewelry photography" width="600" height="400" src="/assets/site-image-index-features-image-1.webp" alt="טבעת יהלום אלגנטית לנשים" data-element-type="image" data-element-id="img-1784832740918-4l5blqka3" style fetchpriority="low" />
+        <img loading="lazy" decoding="async" data-placeholder="index-features-image-1" data-context="Close-up macro shot of a delicate gold ring with a sparkling diamond, resting on dark velvet with soft cyan edge lighting, cinematic jewelry photography" width="600" height="400" src="/assets/site-image-index-features-image-1.webp" alt="טבעת יהלום אלגנטית לנשים" data-element-type="image" data-element-id="img-1784832740918-4l5blqka3" fetchpriority="low" />
         <div class="index-features-section__card-glow"></div>
       </div>
       <div class="index-features-section__card-body">
-        <h3 class="index-features-section__card-title" style>לאישה</h3>
-        <p class="index-features-section__card-text" style>טבעות עדינות, עגילים מרחפים, צמידים ופריטי סטייטמנט שמבליטים את האופי שלך. משלבות ברק עם אבנים חן דמויות יהלומים&nbsp;</p>
-        <p style><a href="#" class="index-features-section__card-link">
+        <h3 class="index-features-section__card-title">לאישה</h3>
+        <p class="index-features-section__card-text">טבעות עדינות, עגילים מרחפים, צמידים ופריטי סטייטמנט שמבליטים את האופי שלך. משלבות ברק עם אבנים חן דמויות יהלומים&nbsp;</p>
+        <p><a href="#" class="index-features-section__card-link">
           <span>גלי את הקולקציה</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg" style="cursor: pointer;"><polyline points="15 18 9 12 15 6"/></svg>
         </a>
@@ -1387,11 +1387,11 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <!-- Card 2: For Him -->
     <article class="index-features-section__card index-features-section__card--him" data-grid-item-index="1">
       <div class="index-features-section__card-media">
-        <img loading="lazy" decoding="async" data-placeholder="index-features-image-2" data-context="Masculine dark-toned close-up of a brushed silver chain bracelet on textured slate, reflecting a subtle cyan rim light, moody luxury jewelry shot" width="600" height="400" src="/assets/site-image-index-features-image-2.webp" alt="צמיד שרשרת כסף לגבר" data-element-type="image" data-element-id="img-1784832740932-m3tvr5aa8" style fetchpriority="low" />
+        <img loading="lazy" decoding="async" data-placeholder="index-features-image-2" data-context="Masculine dark-toned close-up of a brushed silver chain bracelet on textured slate, reflecting a subtle cyan rim light, moody luxury jewelry shot" width="600" height="400" src="/assets/site-image-index-features-image-2.webp" alt="צמיד שרשרת כסף לגבר" data-element-type="image" data-element-id="img-1784832740932-m3tvr5aa8" fetchpriority="low" />
         <div class="index-features-section__card-glow"></div>
       </div>
       <div class="index-features-section__card-body">
-        <h3 class="index-features-section__card-title" style>לגבר&nbsp;</h3>
+        <h3 class="index-features-section__card-title">לגבר&nbsp;</h3>
         <p class="index-features-section__card-text">שרשראות, צמידים וטבעות בעיצוב נועז אך מאופק. תכשיטים שמדגישים נוכחות גברית בשפה עיצובית נקייה ומדויקת.</p>
         <p><a href="#" class="index-features-section__card-link">
           <span>גלה את הקולקציה</span>
@@ -1403,11 +1403,11 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <!-- Card 3: For Gifting -->
     <article class="index-features-section__card index-features-section__card--gift" data-grid-item-index="2">
       <div class="index-features-section__card-media">
-        <img loading="lazy" decoding="async" data-placeholder="index-features-image-3" data-context="Elegant flat lay of a wrapped jewelry gift box with a gold ribbon, soft cyan accent lighting on a dark marble surface, luxury gifting concept" width="600" height="400" src="/assets/site-image-index-features-image-3.webp" alt="קופסת תכשיטים מהודרת למתנה" data-element-type="image" data-element-id="img-1784832740945-hz53umypv" style fetchpriority="low" />
+        <img loading="lazy" decoding="async" data-placeholder="index-features-image-3" data-context="Elegant flat lay of a wrapped jewelry gift box with a gold ribbon, soft cyan accent lighting on a dark marble surface, luxury gifting concept" width="600" height="400" src="/assets/site-image-index-features-image-3.webp" alt="קופסת תכשיטים מהודרת למתנה" data-element-type="image" data-element-id="img-1784832740945-hz53umypv" fetchpriority="low" />
         <div class="index-features-section__card-glow"></div>
       </div>
       <div class="index-features-section__card-body">
-        <h3 class="index-features-section__card-title" style>מתנות</h3>
+        <h3 class="index-features-section__card-title">מתנות</h3>
         <p class="index-features-section__card-text">רגעים של אהבה, ימי הולדת, ימי נישואין או הישגים אישיים – בחרנו פריטים שמתאימים לכל חגיגה. אריזה יוקרתית שהופכת כל מתנה לחוויה.</p>
         <p><a href="#" class="index-features-section__card-link">
           <span>למתנות מיוחדות</span>
@@ -1642,11 +1642,11 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:katzliad3@gmail.com">katzliad3@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0522166429">0522166429</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
             <span class="contact-text">[business_address]</span></a></li>
@@ -1656,11 +1656,9 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4 class="footer-heading">שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1694,7 +1692,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/0522166429" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

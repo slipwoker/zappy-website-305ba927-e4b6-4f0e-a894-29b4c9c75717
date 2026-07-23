@@ -76,7 +76,21 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-_No products are currently configured._
+**Total active products: 2**
+
+### שרשרת לגבר
+https://example.com/product/shrshrt-lgbr-kmf4cd
+- Price: 50.00 ILS (sale, was 85.00 ILS)
+- Availability: In stock
+- Description: שרשרת לגבר אל חלד איכותית
+- Image: https://example.com/assets/product-1784833413364-nq2i7p.webp
+
+### צמידים לגבר
+https://example.com/product/tsmydym-lgbr-7oya1h
+- Price: 50.00 ILS (sale, was 120.00 ILS)
+- Availability: In stock
+- Description: צמידים איכותיים לגבר במחיר זול בלי להתפשר על איכות
+- Image: https://example.com/assets/product-1784833025985-rolvxb.webp
 
 ---
 
