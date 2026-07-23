@@ -1496,23 +1496,23 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </div>
 </section>
 
-<section data-band-index="3" class="index-testimonials-section" data-layout-spec="בית-testimonials" dir="rtl">
+<section data-band-index="3" class="index-testimonials-section" data-layout-spec="בית-testimonials" dir="rtl" id="index-testimonials-section">
   <div class="index-testimonials-section__container">
-    <div class="index-testimonials-section__grid">
-      <header class="index-testimonials-section__header">
+    <div class="index-testimonials-section__grid" data-zappy-grid-align="start">
+      <header class="index-testimonials-section__header" data-grid-item-index="0">
         <h2 class="index-testimonials-section__title">הלקוחות שלנו מספרים</h2>
         <p class="index-testimonials-section__subtitle">כל תכשיט מספר סיפור. הנה כמה מהסיפורים שהכי מרגשים אותנו.</p>
         <div class="index-testimonials-section__accent-line"></div>
       </header>
 
-    <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="display:none">
+    <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="display:none" data-grid-item-index="1">
       <div class="catalog-menu-container">
-        <a href="/products" class="catalog-menu-item catalog-menu-all">מוצרים</a>
-        <div class="catalog-menu-categories" id="zappy-category-links" dir="rtl" data-zappy-catalog-baked="1"></div>
+        <p class="zappy-editable"><a href="/products" class="catalog-menu-item catalog-menu-all">מוצרים</a>
+        </p><div class="catalog-menu-categories" id="zappy-category-links" dir="rtl" style="direction: rtl !important;" data-zappy-catalog-baked="1"></div>
       </div>
     </nav>
   
-      <div class="index-testimonials-section__cards">
+      <div class="index-testimonials-section__cards" data-grid-item-index="2" style="display: flex !important; flex-direction: column !important; justify-content: flex-start !important; align-items: stretch !important; align-self: stretch !important; height: 100% !important;">
         <article class="index-testimonials-section__card">
           <div class="index-testimonials-section__card-quote" aria-hidden="true">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1520,7 +1520,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
             </svg>
           </div>
           <blockquote class="index-testimonials-section__card-text">
-            <p>חיפשתי מתנה לאימא שלי ליום ההולדת, משהו מיוחד אבל לא צעקני. הצוות של Milan עזר לי לבחור שרשרת שהיא פשוט לא מורידה מאז. האריזה הייתה ברמה של מותג יוקרה, וההתרגשות בעיניים שלה הייתה שווה כל שקל.</p>
+            <p>חיפשתי מתנה לאימא שלי ליום ההולדת, משהו מיוחד אבל&nbsp; לא צעקני. הצוות של Milan עזר לי לבחור שרשרת שהיא פשוט לא מורידה מאז. האריזה הייתה ברמה של מותג יוקרה, וההתרגשות בעיניים שלה הייתה שווה כל שקל.</p>
           </blockquote>
           <footer class="index-testimonials-section__card-author">
             <div class="index-testimonials-section__card-stars" aria-label="5 מתוך 5 כוכבים">
@@ -1531,13 +1531,13 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
               <span class="index-testimonials-section__star" aria-hidden="true">★</span>
             </div>
             <cite class="index-testimonials-section__card-name">דניאל כהן</cite>
-            <span class="index-testimonials-section__card-role">רכש מתנה ליולדת</span>
-          </footer>
+            <p><span class="index-testimonials-section__card-role">רכש מתנה ליולדת</span>
+          </p></footer>
         </article>
 
         <article class="index-testimonials-section__card">
           <div class="index-testimonials-section__card-quote" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-id="zappy-temp-icon-1784835322360-9gt870068" style="width: 32px !important; height: 32px !important; color: rgb(0, 200, 255);" width="32" height="32" data-size-adjusted="true">
               <path d="M10 11H6V7C6 5.343 7.343 4 9 4H10V6H9C8.448 6 8 6.448 8 7V11H10V16H4V11H10ZM20 11H16V7C16 5.343 17.343 4 19 4H20V6H19C18.448 6 18 6.448 18 7V11H20V16H14V11H20Z" fill="currentColor"/>
             </svg>
           </div>

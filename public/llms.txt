@@ -93,8 +93,8 @@ https://example.com/product/shrshrt-lgbr-8dx5bt
 - Image: https://example.com/assets/product-1784834194904-lfl5j7.webp
 
 ### שרשרת אותיות מעוצבות לאישה 
-https://example.com/product/shrshrt-avtyvt-mavtsbvt-layshh-bbarm7
-- Price: 0.00 ILS
+https://example.com/product/shrshrt-avtyvt-mavtsbvt-layshh-owo9xe
+- Price: 50.00 ILS (sale, was 120.00 ILS)
 - Availability: In stock
 - Description: שרשרת עם אות באנגלית אל חלד מתאים למקלחת באיכות גבוהה
 - Image: https://example.com/assets/product-1784834064062-l6jfj.webp

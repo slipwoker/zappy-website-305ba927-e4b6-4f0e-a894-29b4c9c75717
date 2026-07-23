@@ -4,7 +4,7 @@
     <title>Milan</title>
     <link>https://example.com</link>
     <description>Product feed for Milan</description>
-    <lastBuildDate>Thu, 23 Jul 2026 19:28:04 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 19:35:35 GMT</lastBuildDate>
     <item>
       <g:id>fe60aebb-8282-415a-8788-92a86eed8caa</g:id>
       <g:title>שרשרת לגבר </g:title>
@@ -35,12 +35,13 @@
       <g:id>41029e8e-037e-4868-8da2-6aa759409994</g:id>
       <g:title>שרשרת אותיות מעוצבות לאישה </g:title>
       <g:description>שרשרת עם אות באנגלית אל חלד מתאים למקלחת באיכות גבוהה</g:description>
-      <g:link>https://example.com/product/shrshrt-avtyvt-mavtsbvt-layshh-bbarm7</g:link>
+      <g:link>https://example.com/product/shrshrt-avtyvt-mavtsbvt-layshh-owo9xe</g:link>
       <g:image_link>https://example.com/assets/product-1784834064062-l6jfj.webp</g:image_link>
       <g:additional_image_link>https://example.com/assets/product-1784834070865-uppbke.webp</g:additional_image_link>
       <g:additional_image_link>https://example.com/assets/product-1784834077631-law76.webp</g:additional_image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>0.00 ILS</g:price>
+      <g:price>120.00 ILS</g:price>
+      <g:sale_price>50.00 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Milan</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
