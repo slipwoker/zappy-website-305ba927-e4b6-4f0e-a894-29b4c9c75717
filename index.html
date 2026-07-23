@@ -780,13 +780,13 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "305ba927-e4b6-4f0e-a894-29b4c9c75717";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "305ba927-e4b6-4f0e-a894-29b4c9c75717";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   </button>
@@ -1357,63 +1357,63 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </section>
   
 
-<section data-band-index="1" class="index-features-section" data-layout-spec="בית-features">
+<section data-band-index="1" class="index-features-section" data-layout-spec="בית-features" id="index-features-section">
   <!-- Intro Block -->
   <div class="index-features-section__intro">
-    <span class="index-features-section__overline">האוסף שלנו</span>
-    <h2 class="index-features-section__title">תכשיטים שמספרים סיפור</h2>
+    <p class="zappy-editable"><span class="index-features-section__overline">האוסף שלנו</span>
+    </p><h2 class="index-features-section__title">תכשיטים שמספרים סיפור</h2>
     <p class="index-features-section__subtitle">בין אם אתם מחפשים מתנה מושלמת או פינוק אישי, הקולקציות שלנו משלבות אומנות קלאסית עם עיצוב עכשווי. כל פריט נבחר בקפידה כדי להאיר רגעים מיוחדים.</p>
   </div>
 
   <!-- Staggered Feature Cards Grid -->
-  <div class="index-features-section__grid">
+  <div class="index-features-section__grid" data-zappy-grid-align="start">
     
     <!-- Card 1: For Her -->
-    <article class="index-features-section__card index-features-section__card--her">
+    <article class="index-features-section__card index-features-section__card--her" data-grid-item-index="0">
       <div class="index-features-section__card-media">
-        <img loading="lazy" decoding="async" data-placeholder="index-features-image-1" data-context="Close-up macro shot of a delicate gold ring with a sparkling diamond, resting on dark velvet with soft cyan edge lighting, cinematic jewelry photography" width="600" height="400" src="/assets/site-image-index-features-image-1.webp" alt="טבעת יהלום אלגנטית לנשים" fetchpriority="low" />
+        <img loading="lazy" decoding="async" data-placeholder="index-features-image-1" data-context="Close-up macro shot of a delicate gold ring with a sparkling diamond, resting on dark velvet with soft cyan edge lighting, cinematic jewelry photography" width="600" height="400" src="/assets/site-image-index-features-image-1.webp" alt="טבעת יהלום אלגנטית לנשים" data-element-type="image" data-element-id="img-1784832740918-4l5blqka3" style fetchpriority="low" />
         <div class="index-features-section__card-glow"></div>
       </div>
       <div class="index-features-section__card-body">
-        <h3 class="index-features-section__card-title">לה</h3>
+        <h3 class="index-features-section__card-title" style>לאישה</h3>
         <p class="index-features-section__card-text">טבעות עדינות, עגילים מרחפים, צמידים ופריטי סטייטמנט שמבליטים את האופי שלך. משלבות ברק יהלומים עם זהב חם ליצירת מראה בלתי נשכח.</p>
-        <a href="#" class="index-features-section__card-link">
+        <p><a href="#" class="index-features-section__card-link">
           <span>גלי את הקולקציה</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><polyline points="15 18 9 12 15 6"/></svg>
         </a>
-      </div>
+      </p></div>
     </article>
 
     <!-- Card 2: For Him -->
-    <article class="index-features-section__card index-features-section__card--him">
+    <article class="index-features-section__card index-features-section__card--him" data-grid-item-index="1">
       <div class="index-features-section__card-media">
-        <img loading="lazy" decoding="async" data-placeholder="index-features-image-2" data-context="Masculine dark-toned close-up of a brushed silver chain bracelet on textured slate, reflecting a subtle cyan rim light, moody luxury jewelry shot" width="600" height="400" src="/assets/site-image-index-features-image-2.webp" alt="צמיד שרשרת כסף לגבר" fetchpriority="low" />
+        <img loading="lazy" decoding="async" data-placeholder="index-features-image-2" data-context="Masculine dark-toned close-up of a brushed silver chain bracelet on textured slate, reflecting a subtle cyan rim light, moody luxury jewelry shot" width="600" height="400" src="/assets/site-image-index-features-image-2.webp" alt="צמיד שרשרת כסף לגבר" data-element-type="image" data-element-id="img-1784832740932-m3tvr5aa8" style fetchpriority="low" />
         <div class="index-features-section__card-glow"></div>
       </div>
       <div class="index-features-section__card-body">
         <h3 class="index-features-section__card-title">לו</h3>
         <p class="index-features-section__card-text">שרשראות, צמידים וטבעות בעיצוב נועז אך מאופק. תכשיטים שמדגישים נוכחות גברית בשפה עיצובית נקייה ומדויקת.</p>
-        <a href="#" class="index-features-section__card-link">
+        <p class="zappy-editable"><a href="#" class="index-features-section__card-link">
           <span>גלה את הקולקציה</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><polyline points="15 18 9 12 15 6"/></svg>
         </a>
-      </div>
+      </p></div>
     </article>
 
     <!-- Card 3: For Gifting -->
-    <article class="index-features-section__card index-features-section__card--gift">
+    <article class="index-features-section__card index-features-section__card--gift" data-grid-item-index="2">
       <div class="index-features-section__card-media">
-        <img loading="lazy" decoding="async" data-placeholder="index-features-image-3" data-context="Elegant flat lay of a wrapped jewelry gift box with a gold ribbon, soft cyan accent lighting on a dark marble surface, luxury gifting concept" width="600" height="400" src="/assets/site-image-index-features-image-3.webp" alt="קופסת תכשיטים מהודרת למתנה" fetchpriority="low" />
+        <img loading="lazy" decoding="async" data-placeholder="index-features-image-3" data-context="Elegant flat lay of a wrapped jewelry gift box with a gold ribbon, soft cyan accent lighting on a dark marble surface, luxury gifting concept" width="600" height="400" src="/assets/site-image-index-features-image-3.webp" alt="קופסת תכשיטים מהודרת למתנה" data-element-type="image" data-element-id="img-1784832740945-hz53umypv" style fetchpriority="low" />
         <div class="index-features-section__card-glow"></div>
       </div>
       <div class="index-features-section__card-body">
         <h3 class="index-features-section__card-title">למתנה</h3>
         <p class="index-features-section__card-text">רגעים של אהבה, ימי הולדת, ימי נישואין או הישגים אישיים – בחרנו פריטים שמתאימים לכל חגיגה. אריזה יוקרתית שהופכת כל מתנה לחוויה.</p>
-        <a href="#" class="index-features-section__card-link">
+        <p class="zappy-editable"><a href="#" class="index-features-section__card-link">
           <span>למתנות מיוחדות</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><polyline points="15 18 9 12 15 6"/></svg>
         </a>
-      </div>
+      </p></div>
     </article>
 
   </div>
